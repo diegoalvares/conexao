@@ -11,6 +11,7 @@ main{
     width: 350px;
     margin: auto;
     margin-top: 6.5%;
+    padding-bottom: 30px;
  }
 
 form>input{
