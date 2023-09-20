@@ -46,3 +46,8 @@ a:hover{
     color: rgb(210, 165, 252);
     transition-duration: 0.5s;
 }
+
+.imagem{
+    margin-left: 29%;
+    margin-top: 38%;
+}
