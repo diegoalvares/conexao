@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+body{
+    background: linear-gradient(to right, rgb(90, 5, 90) 55%, rgb(142, 62, 150));
+}
+
+nav{
+    width: 300px;
+    margin: auto;
+    padding: 15px;
+    background-color: rgb(36, 35, 35);
+    text-shadow: 1px 1px 1px black;
+}
+
+main{
+    width: 300px;
+    margin: auto;
+    padding-bottom: 30px;
+ }
+
+.roxo{
+    width: 25px;
+    background: linear-gradient(to right, rgb(90, 5, 90) 45%, rgb(142, 62, 150) 30%, white);
+    padding: 13px;
+    border-radius: 100%;
+    cursor: pointer;
+    border: none;
+}
+
+.preto{
+    width: 25px;
+    background: linear-gradient(to right, rgb(56, 54, 54) 45%, rgb(118, 110, 119) 30%, white);
+    padding: 13px;
+    border-radius: 100%;
+    cursor: pointer;
+    border: solid rgb(80, 77, 77) 1px;
+}
+
+.azul{
+    width: 25px;
+    background: linear-gradient(to right, rgb(5, 82, 128) 45%,  rgb(10, 109, 109) 
+    30%, white);
+    padding: 13px;
+    border-radius: 100%;
+    cursor: pointer;
+    border: solid rgb(80, 77, 77) 1px;
+}
+
+.rosa{
+    width: 25px;
+    background: linear-gradient(to right,rgb(255, 0, 221) 45%,rgb(255, 103, 217) 30%, white);
+    padding: 13px;
+    border-radius: 100%;
+    cursor: pointer;
+    border: solid rgb(80, 77, 77) 1px;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(236, 227, 245);
+    margin-left: 6%;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px grey;
+}
+
+a:hover{
+    color: rgb(210, 165, 252);
+    transition-duration: 0.5s;
+}
+
+a:focus{
+    color: rgb(210, 165, 252);
+}
+
+span{
+    text-decoration: none;
+    color: rgb(236, 227, 245);
+    margin-left: 6%;
+    font-size: 18px;
+    text-shadow: 2px 2px 2px grey;
+}
