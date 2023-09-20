@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 body{
@@ -9,15 +10,21 @@ body{
 main{
     width: 350px;
     margin: auto;
-}
+    margin-top: 15px;
+    border: solid rgb(179, 104, 230);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+ }
 
 form>input{
-    font-size: 40px;
+    font-size: 35px;
     border-radius: 35px;
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
-    width: 350px;
+    width: 340px;
+    padding: 5px;
 }
 
 button{
@@ -39,7 +46,9 @@ a{
     text-decoration: none;
     color: rgb(241, 226, 255);
     margin-left: 18%;
-    font-size: 30px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px grey;
 }
 
 a:hover{
@@ -49,5 +58,13 @@ a:hover{
 
 .imagem{
     margin-left: 29%;
-    margin-top: 38%;
+    margin-top: 10%;
+    margin-bottom: 20px;
+}
+
+.new{
+    border: solid rgb(179, 104, 230);
+    background-color: transparent;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px grey;
 }
