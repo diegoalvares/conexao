@@ -7,7 +7,7 @@ body{
 }
 
 main{
-    width: 400px;
+    width: 350px;
     margin: auto;
 }
 
@@ -15,16 +15,34 @@ form>input{
     font-size: 40px;
     border-radius: 35px;
     text-align: center;
-    margin-top: 30px;
-    width: 400px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 350px;
 }
 
 button{
-    width: 400px;
+    width: 350px;
     border-radius: 30px;
     background-color: blueviolet;
     color: white;
     text-shadow: 2px 2px 2px grey;
     font-size: 30px;
     padding: 10px;
+}
+
+button:hover{
+    background-color: rgb(163, 94, 228);
+    transition-duration: 0.5s;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(241, 226, 255);
+    margin-left: 18%;
+    font-size: 30px;
+}
+
+a:hover{
+    color: rgb(210, 165, 252);
+    transition-duration: 0.5s;
 }
