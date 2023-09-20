@@ -31,7 +31,7 @@ form>input:focus{
 }
 
 button{
-    width: 290px;
+    width: 300px;
     border-radius: 30px;
     background-color: blueviolet;
     color: white;
@@ -52,7 +52,7 @@ button:focus{
 a{
     text-decoration: none;
     color: rgb(236, 227, 245);
-    margin-left: 8%;
+    margin-left: 11%;
     font-size: 25px;
     margin-bottom: 20px;
     text-shadow: 2px 2px 2px grey;
