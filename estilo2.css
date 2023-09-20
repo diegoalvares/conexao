@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2x grey;
+}
+
+body{
+    background: linear-gradient(to right, rgb(90, 5, 90) 55%, rgb(142, 62, 150));
+}
+
+nav{
+    background-color: blue;
+}
+
+main{
+    width: 300px;
+    margin: auto;
+    margin-top: 5%;
+    padding-bottom: 30px;
+ }
+
+button{
+    width: 300px;
+    border-radius: 30px;
+    background-color: blueviolet;
+    color: white;
+    text-shadow: 2px 2px 2px grey;
+    font-size: 30px;
+    padding: 10px;
+}
+
+button:hover{
+    background-color: rgb(163, 94, 228);
+    transition-duration: 0.5s;
+}
+
+button:focus{
+    background-color: rgb(163, 94, 228);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(236, 227, 245);
+    margin-left: 11%;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px grey;
+}
+
+a:hover{
+    color: rgb(210, 165, 252);
+    transition-duration: 0.5s;
+}
+
+a:focus{
+    color: rgb(210, 165, 252);
+}
