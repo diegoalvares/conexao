@@ -12,43 +12,36 @@ btn.addEventListener('click', function(e){
 
     if (result == 'diego' && result2 == '051094'){
         console.log('Login Efetuado com sucesso!');
-        msg.innerHTML = 'Login Efetuado com sucesso!';
         msg.style.fontSize = '18px';
         location.href='perfil.html';
     }
     else if (result == 'juliana' && result2 == 1809){
         console.log('Login Efetuado com sucesso!')
-        msg.innerHTML = 'Login Efetuado com sucesso!'
         msg.style.fontSize = '18px'
         location.href='perfil.html';
     }
     else if (result == 'ajsouza' && result2 == 24879504){
         console.log('Login Efetuado com sucesso!')
-        msg.innerHTML = 'Login Efetuado com sucesso!'
         msg.style.fontSize = '18px'
         location.href='perfil.html';
     }
     else if (result == 'eu' && result2 == '981058@'){
         console.log('Login Efetuado com sucesso!')
-        msg.innerHTML = 'Login Efetuado com sucesso!'
         msg.style.fontSize = '18px'
         location.href='perfil.html';
     }
     else if (result == 'josifono' && result2 == 'androli2027'){
         console.log('Login Efetuado com sucesso!')
-        msg.innerHTML = 'Login Efetuado com sucesso!'
         msg.style.fontSize = '18px'
         location.href='perfil.html';
     }
     else if (result == 'josifono' && result2 == 'androli2027'){
         console.log('Login Efetuado com sucesso!')
-        msg.innerHTML = 'Login Efetuado com sucesso!'
         msg.style.fontSize = '18px'
         location.href='perfil.html';
     }
     else if (result == 'biaaprincesa' && result2 == 'migoocupado'){
         console.log('Login Efetuado com sucesso!')
-        msg.innerHTML = 'Login Efetuado com sucesso!'
         msg.style.fontSize = '18px'
         location.href='perfil.html';
     }
