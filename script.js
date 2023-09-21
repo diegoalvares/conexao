@@ -25,7 +25,7 @@ btn.addEventListener('click', function(e){
         msg.style.fontSize = '18px'
         location.href='perfil.html';
     }
-    else if (result == 'eu' && result2 == '1'){
+    else if (result == 'eu' && result2 == '981058@'){
         console.log('Login Efetuado com sucesso!')
         msg.style.fontSize = '18px'
         location.href='perfil.html';
