@@ -52,7 +52,7 @@ main{
 
 .rosa{
     width: 25px;
-    background: linear-gradient(to right,rgb(255, 0, 221) 45%,rgb(255, 103, 217) 30%, white);
+    background: linear-gradient(to right,rgb(153, 4, 133) 45%,rgb(255, 103, 217) 30%, white);
     padding: 13px;
     border-radius: 100%;
     cursor: pointer;

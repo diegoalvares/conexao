@@ -22,8 +22,19 @@ btn.addEventListener('click', function(e){
     
     else if (result == 'melrie' && result2 == '1'){
         console.log('Login Efetuado com sucesso!')
-        msg.style.fontSize = '18px';
-        location.href='perfil.html';
-        titulo.innerHTML='melrie';
+        msg.style.fontSize = '18px'
+        location.href='perfil.html'
+        titulo.innerHTML='melrie'
+    }
+   
+    else if (result == '' || result2 == ''){
+        console.error('Preencha todos os campos!')
+        msg.innerHTML = 'Preencha todos os campos!'
+        msg.style.fontSize = '19px'
+    }
+    
+    else{
+        console.error('Usuário ou senha incorreta!')
+        msg.innerHTML = 'Usuário ou senha incorreta!'
     }
 })
