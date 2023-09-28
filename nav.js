@@ -11,11 +11,6 @@ roxo.addEventListener('click', function(e){
     e.preventDefault();
     const fundo = document.querySelector('body')
     fundo.style.background = 'linear-gradient(to right, rgb(90, 5, 90) 55%, rgb(142, 62, 150))'
-    sobre.style.background = 'rgb(240, 212, 248)';
-    t_descricao.style.color= 'blueviolet'
-    sobre.style.background= 'rgb(240, 212, 248)'
-    descricao.style.color = 'blueviolet'
-    editar.style.background = 'blueviolet'
 })
 
 

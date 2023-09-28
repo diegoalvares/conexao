@@ -17,10 +17,8 @@ btn.addEventListener('click', function(e){
         console.log('Login Efetuado com sucesso!');
         msg.style.fontSize = '18px';
         location.href='perfil.html';
-     }
-    
-    
-    else if (result == 'melrie' && result2 == '1'){
+    }
+    else if (result == 'juliana' && result2 == 1809){
         console.log('Login Efetuado com sucesso!')
         msg.style.fontSize = '18px'
         location.href='perfil.html'
