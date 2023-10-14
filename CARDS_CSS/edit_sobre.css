@@ -1,0 +1,27 @@
+#edit_sobre{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 434px;
+    height: 748px;
+    position: absolute;
+    margin-top: -700px;
+    margin-left: -80px;
+}
+
+#edit_sobre>h1{
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    margin-top: 150px;
+}
+
+#edit_sobre>textarea{
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    width: 415px;
+    height: 150px;
+    padding: 10px;
+}
